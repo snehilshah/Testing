@@ -1,3 +1,32 @@
+
+# Testing color
+
+```jsonc
+{
+  // use Mocha as the base
+  "workbench.colorTheme": "Catppuccin Mocha",
+  // pink as the accent color
+  "catppuccin.accentColor": "pink",
+  // make Mocha specifically very dark
+  // (this preserves other flavors!)
+  "catppuccin.colorOverrides": {
+    "mocha": {
+      "base": "`#000000`",
+      "mantle": "#010101",
+      "crust": "#020202",
+    },
+  },
+  // use your accent (pink) on the statusBar as well
+  "catppuccin.customUIColors": {
+    "mocha": {
+      "statusBar.foreground": "accent",
+    },
+  },
+}
+```
+
+This is color: `#010101`
+
 ![RC_header_footer](https://github.com/danonymous856/danonymous856/assets/81114860/e90af1e0-bc49-4d12-a0c7-b6f9723b7778)
 
 <h1 align="center">Hi👋, I'm Donald Laishram</h1>
